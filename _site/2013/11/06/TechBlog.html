@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>oracle导入sql文件乱码</title>
+</head>
+<body>
+
+
+<h2 id="oraclesql">oracle导入sql文件乱码</h2>
+
+<h3 id="">师兄说我在写公开日记，我才发现，竟然所有人都能看到我的博客。。。</h3>
+
+<h3 id="it">从此开始写技术文章，有点IT人的样儿！哈哈</h3>
+
+<h4 id="_2">从现在的这个项目开始</h4>
+
+<h4 id="oraclesqlgoogleoracleutf8sqlsql_developernavicat">oracle导入包含sql文件的时候，总是无法正确编码，经过各种google，查了下oracle数据库的字符集编码，发现并不是UTF8。所以不管直接命令行执行sql文件导入，还是用sql developer，navicat等可视化工具来导入，都是会乱码。</h4>
+
+<p>这个问题真的困扰了我好久，导致后边的工作都没办法继续。</p>
+
+<h3 id="sqlsqlnavicatsqlsqloracle">解决办法是，直接把sql文件中的sql语句复制粘贴到navicat工具里边执行sql语句，成功！或者其他工具，只要是直接执行sql语句，而不是经过文件编码，再跟oracle交互，就能顺利完成。</h3>
+
+<p>06 Nov 2013</p>
+
+
+</body>
+</html>
