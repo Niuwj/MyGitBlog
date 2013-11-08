@@ -10,15 +10,35 @@
 <h2 id="jsp">jsp内置对象</h2>
 
 <ul>
-<li>request<br />request对象与HttpServletRequest类关联，是javax.servlet.ServlerRequest的一个子类。<strong>用request对象可以获取客户端提交的数据</strong>，如：表单的数据、网页地址后带的参数等。</li>
+<li>
+<p>request</p>
 
-<li>response<br />response对象与HttpServletRespnse类关联，<strong>可用来向客户端输入数据</strong>。</li>
+<p>request对象与HttpServletRequest类关联，是javax.servlet.ServlerRequest的一个子类。<strong>用request对象可以获取客户端提交的数据</strong>，如：表单的数据、网页地址后带的参数等。</p>
+</li>
 
-<li>session<br />session对象与HttpSession类关联，<strong>可用来保存在服务器与一个客户端中间需要保留的数据</strong>，当客户端关闭网站（或称为系统）的所有网页时，session变量会自动消除。HTTP是一个无状态的协议，不保留会话间的数据，通过session对象扩展了HTTP的功能。</li>
+<li>
+<p>response</p>
 
-<li>application<br />application对象与ServletContext类关联，一旦创建（在服务器开始提供服务时，即第一次被访问时application对象就会被创建），就会一直保持直到服务器关闭服务为止。所以，<strong>application对象可用来提供一些全局的数据和对象</strong>。</li>
+<p>response对象与HttpServletRespnse类关联，<strong>可用来向客户端输入数据</strong>。</p>
+</li>
 
-<li>out<br />out对象实际上是使用PrintWriter类来<strong>向客户端浏览器输出数据</strong>。</li>
+<li>
+<p>session</p>
+
+<p>session对象与HttpSession类关联，<strong>可用来保存在服务器与一个客户端中间需要保留的数据</strong>，当客户端关闭网站（或称为系统）的所有网页时，session变量会自动消除。HTTP是一个无状态的协议，不保留会话间的数据，通过session对象扩展了HTTP的功能。</p>
+</li>
+
+<li>
+<p>application</p>
+
+<p>application对象与ServletContext类关联，一旦创建（在服务器开始提供服务时，即第一次被访问时application对象就会被创建），就会一直保持直到服务器关闭服务为止。所以，<strong>application对象可用来提供一些全局的数据和对象</strong>。</p>
+</li>
+
+<li>
+<p>out</p>
+
+<p>out对象实际上是使用PrintWriter类来<strong>向客户端浏览器输出数据</strong>。</p>
+</li>
 </ul>
 
 <p>08 Nov 2013</p>
